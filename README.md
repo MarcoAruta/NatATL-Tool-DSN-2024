@@ -40,10 +40,10 @@ We provide a lot of visual outputs to help you understand the whole process, fro
 
 Here is an example of how a solution is outputted:
 
-{'res': "Result: #STATESWHEREFORMULAHOLDS", 'initial_state': 'Initial state s0: True'}
+'{'res': "Result: #STATESWHEREFORMULAHOLDS", 'initial_state': 'Initial state s0: True'}
 Solution found!
 Winning Strategy per agent: #WINNINGSTRATEGY
-Elapsed time is 0.0019927024841308594 seconds.
+Elapsed time is 0.0019927024841308594 seconds.'
 
 Note: The #'s will be replaced during execution by the actual output values.
 
