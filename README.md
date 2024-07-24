@@ -4,7 +4,7 @@ Welcome to NatATL model checking Guide:
 
 This guide teaches the user how to use a local NatATL model checking tools, separately from VITAMIN, where they are also implemented. Download and extract the project from the zip file and follow the steps carefully to execute them correctly (they are presented as two different project folders located at the same readme.txt path).
 
-Firstly, download the entire zip project.
+You need to download the entire zip project from the current github repository.
 
 1) HOW TO SUCCESSFULLY RUN YOUR CODE
 
