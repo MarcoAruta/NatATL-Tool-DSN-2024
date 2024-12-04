@@ -1,4 +1,4 @@
-# NatATL-Tool-PRIMA-2024
+# NatATL-Tool-DSN-2024
 
 Welcome to NatATL model checking Guide:
 
