@@ -4,8 +4,6 @@ Welcome to NatATL model checking Guide:
 
 This guide teaches the user how to use a local NatATL model checking tools, separately from VITAMIN, where they are also implemented. Download and extract the project from the zip file and follow the steps carefully to execute them correctly (they are presented as two different project folders located at the same readme.txt path).
 
-You need to download the entire zip project from the current github repository.
-
 1) HOW TO SUCCESSFULLY RUN YOUR CODE
 
 Preliminary Step: DOWNLOAD ALL NECESSARY LIBRARIES
@@ -42,10 +40,10 @@ We provide a lot of visual outputs to help you understand the whole process, fro
 
 Here is an example of how a solution is outputted:
 
-    {'res': "Result: #STATESWHEREFORMULAHOLDS", 'initial_state': 'Initial state s0: True'}
-    Solution found!
-    Winning Strategy per agent: #WINNINGSTRATEGY
-    Elapsed time is 0.0019927024841308594 seconds.
+{'res': "Result: #STATESWHEREFORMULAHOLDS", 'initial_state': 'Initial state s0: True'}
+Solution found!
+Winning Strategy per agent: #WINNINGSTRATEGY
+Elapsed time is 0.0019927024841308594 seconds.
 
 Note: The #'s will be replaced during execution by the actual output values.
 
@@ -65,10 +63,10 @@ To modify a formula, follow the NatATL syntax rules. You can choose between X, G
 
 Here are some examples:
 
-    <{1}, 2>Xa
-    <{1,3}, 4>Gh
-    !<{1,2,3}, 3>aUb
-    !(<{1,2,3}, 3>Gh && <{1,2,3}, 3>Gb)
+<{1}, 2>Xa
+<{1,3}, 4>Gh
+!<{1,2,3}, 3>aUb
+!(<{1,2,3}, 3>Gh && <{1,2,3}, 3>Gb)
 
 Note: Here’s how the formula is structured: <{1}, 2>Xa -> {1} is the coalition, 2 is the complexity bound, and the term outside the angular brackets is your formula. The NOT operator is written using "!" for simplicity, so you can adopt this notation if you want (same goes for && as AND and || as OR).
 
@@ -101,5 +99,7 @@ Some testing functions (such as randomizeFormula) have been left for the user to
 For instance, to use randomizeFormula, go to the function initialize() inside the strategies.py file and look for the Testing commented section. Remember to modify the path, also adding your final destination for the formula that will be generated (this file can be empty at the beginning).
 
 Note: Unknown_transition can remain unchanged as it will be useful for the VITAMIN environment, not here.
+
+Robocup and Ticket Vending Machines real world models and formulas are included in their respective Memoryless and Recall-based Testing Directories.
 
 Thanks!
